@@ -4,4 +4,3 @@
 getPI = (n) ->
 	n = 20 if n > 20 || n == undefined
 	return 4 * (4 * Math.atan(1/5) - Math.atan(1/239)).toFixed(n)
-
